@@ -8,7 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/* header elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,23 +15,28 @@ header {
     color: #ffffff;
 }
 
-/* sets appearance for top right links */
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    /* float sets links to right side of header */
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
+main {
+    width: 75%;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 20px;
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 a {
@@ -63,6 +67,26 @@ h4 {
     font-size: 20px;
 }
 
+/* header elements */
+header nav {
+    /* sets appearance for top right links */
+    padding-top: 15px;
+    margin-right: 20px;
+    /* float sets links to right side of header */
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 /* sets part of the company title a different color */
 .seo {
     color: #d9dcd6;
@@ -79,12 +103,6 @@ h4 {
 }
 
 /* main elements */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -136,18 +154,18 @@ main {
 }
 
 /* aside elements */
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-.benefit-lead {
+.benefit-img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -178,12 +196,4 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* footer elements */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
+} */
