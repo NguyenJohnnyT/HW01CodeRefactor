@@ -9,7 +9,8 @@ The code within is a completed code for the refractor exercise in Homework 01 of
 
 ## Installation
 
-Access via this [link](https://nguyenjohnnyt.github.io/HW01CodeRefactor/) (https://nguyenjohnnyt.github.io/HW01CodeRefactor/)\
+Access via this [link](https://nguyenjohnnyt.github.io/HW01CodeRefactor/) (https://nguyenjohnnyt.github.io/HW01CodeRefactor/)
+
 Alternatively, download repository files and open index.html.
 
 ## Usage
@@ -17,9 +18,10 @@ Alternatively, download repository files and open index.html.
 Within this repository are files associated with the front page of the Horiseon website with \
 a functional navigation bar and images with alt atributes.
 
-```md
-![Screenshot of website.](./assets/images/website-screenshot.png)
-```
+Example screenshot:
+![screenshot](./assets/images/website-screenshot.png "Horiseon screenshot")
+
+
 ## Credits
 
 [UCB Bootcamp](https://bootcampspot.com/)\
