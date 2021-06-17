@@ -16,12 +16,14 @@ header {
 }
 
 main {
+    /* aligns main sections to left of website*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 aside {
+    /* aligns aside to right of main */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -79,10 +81,12 @@ header nav {
 }
 
 header nav ul {
+    /* removes markers */
     list-style-type: none;
 }
 
 header nav ul li {
+    /* aligns nav buttons*/
     display: inline-block;
     margin-left: 25px;
 }
@@ -103,32 +107,8 @@ header nav ul li {
 }
 
 /* main elements */
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
+#search-engine-optimization,
+#online-reputation-management,
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,7 +118,10 @@ header nav ul li {
     color: #ffffff;
 }
 
+#search-engine-optimization img,
+#online-reputation-management img,
 #social-media-marketing img {
+    /* set height of img */
     max-height: 200px;
 }
 
